@@ -71,17 +71,17 @@ class WeatherScreen extends StatelessWidget {
                     children: [
                       Text(
                         '${weatherController.cityName.value}',
-                        style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.1),
+                        style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.08),
                       ),
                       SizedBox(height: 10),
                       Text(
                         '${weatherController.temperature.value} °C',
-                        style: TextStyle(fontSize: 22),
+                        style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.08),
                       ),
                       SizedBox(height: 10),
                       Text(
                         '${weatherController.weatherCondition.value}',
-                        style: TextStyle(fontSize: 22),
+                        style: TextStyle(fontSize: MediaQuery.of(context).size.width*0.08),
                       ),
                     ],
                   ),
